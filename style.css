@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+	 background-color:teal;
+	 color:white;
+ }
+ 
+ main{
+       background-color:grey;
+       color: white;
+ }
+ 
+ footer{
+     background-color:teal;
+color:white;
+ }
+ 
+ .theblues{
+       color:blue;
+       font-weight:bold;
+ }
+ 
+header{
+     padding:50px;
+      border:50px;
+}
+
+main{
+      padding:50px;
+      border:50px;
+}
+
+footer{
+     padding:50px;
+     border:50px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: teal;
+}
+
+button{
+  color: grey;
+  margin: 10px 10px;
+  background-color: lightblue;
+outline: none;
+border-radius: 30px;
+}
+
+button:hover{
+  cursor: pointer; 
+  background-color: skyblue;
+}
+
+form{
+  magin: 30px 10px 30px 10px;
+  font-weight: bold;
+}
+
+form, label{
+  color: teal;
+}
+
+img{
+  border-radius:30px;
+}
+
+div{
+  margin:20px 0px 20px 0px;
+  padding:10px 0px 20px 0px;
+  border:10px 0px 20px 0px;
+}
