@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#part1{
+    background-color: blueviolet; 
+    text-align: center;
+}
+
+#part1 div:nth-of-type(1){
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.hideOnDesktop{
+    display: none;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    color: darkgoldenrod;
+}
+
+li a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#part1 div:nth-of-type(2) div:nth-of-type(1) img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200%;
+}
+
+#part1 div:nth-of-type(2) div:nth-of-type(2) h1{
+    color: white;
+}
+
+#part1 div:nth-of-type(2) div:nth-of-type(2) p{
+    color: white;
+}
+
+#part1 div:nth-of-type(2) div:nth-of-type(3){
+    margin: 10px;
+    padding: 10px;
+}
+
+#part1 div:nth-of-type(2) div:nth-of-type(3) a i{
+    color: orangered;
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#aboutme{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#aboutme div{
+    padding: 20px;
+} 
+
+#aboutme div:last-of-type p{
+    padding: 10px;
+
+}
+
+.ach-heading{
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ach-title{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.ach-title h2{
+    color: white;
+    padding: 15px;
+}
+
+.ach-title h6{
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+
+.ach-body{
+    background-color:white;
+    text-align: left;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 1.5px 1.5px 2px black;
+    height: 150px;
+}
+
+#projects{
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#project-content{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .combine1{
+    display: inline-block;
+}
+
+.combine2{
+    display: inline-block;
+}
+
+.combine3{
+    display: inline-block;
+}
+
+.combine4{
+    display: inline-block;
+} */
+
+#proj-button{
+    outline: none;
+    border-color: blueviolet;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#proj-text{
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.give-space-ach{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#part3{
+    background-color: blueviolet; 
+}
+
+#part3 div:nth-of-type(1) h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#part3 div:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#mailme{
+    border-radius: 50%;
+    padding: 5px;
+    outline: none;
+    border: blueviolet;
+}
+
+#mailme a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+#part3 div:nth-of-type(2) div:last-of-type{
+    display: inline-block;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    .hideOnDesktop{
+        display: block;
+        width: 120px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    #contents{
+        width: 80%px;
+        background-color: darkblue;
+        box-shadow: 1.5 1.5 2 black;
+    }
+
+    #contents li{
+        display: block;
+    }
+
+    #aboutme{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    #aboutme div{
+        padding: 10px;
+    } 
+    
+    #aboutme div:last-of-type p{
+        padding: 5px;
+    
+    }
+
+    #achievements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ach-title{
+        background-color: blueviolet;
+        text-align: center;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+    
+    }
+
+    .ach-body{
+        background-color:white;
+        text-align: left;
+        padding: 20px;
+        width: 200px;
+        box-shadow: 1.5px 1.5px 2px black;
+        height: 150px;
+    }
+
+    
+    #part3 div:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #projects{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .give-space-ach{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width:900px) {
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    .hideOnDesktop{
+        display: block;
+        width: 120px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    #contents{
+        width: 80%px;
+        background-color: darkblue;
+        box-shadow: 1.5 1.5 2 black;
+    }
+
+    #contents li{
+        display: block;
+    }
+
+    #achievements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ach-title{
+        background-color: blueviolet;
+        text-align: center;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+    
+    }
+
+    .ach-body{
+        background-color:white;
+        text-align: left;
+        padding: 20px;
+        width: 200px;
+        box-shadow: 1.5px 1.5px 2px black;
+        height: 150px;
+    }
+
+    
+    #part3 div:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #projects{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .give-space-ach{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
